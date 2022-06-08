@@ -19,4 +19,10 @@ public class DemoApplication {
 	}
 
 
+	@GetMapping("/guest")
+	public String guest(){
+		return "Hello guest";
+	}
+
+
 }
